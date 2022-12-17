@@ -2,14 +2,34 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top:30px;
+    margin-right:49px;
+    margin-left:49px;
     column-gap: 20px;
     row-gap: 40px;
 }
 
+.pokemon-picture-container {
+    background-color: white;
+    border:2px solid rgb(28, 233, 55);
+    border-radius:12px;
+    display:grid;
+}
+
 .pokemon-picture {
 width:100%;
-background-color: lightpink;
+
 }
 
 
-
+.video-title {
+    margin-top:-4px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    display:1fr;
+    margin-bottom: 0px;
+    text-align:center;
+    background-color: lightgreen;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+  }
