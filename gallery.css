@@ -6,12 +6,11 @@
     margin-left:49px;
     column-gap: 20px;
     row-gap: 40px;
+    
 }
 
 .pokemon-picture-container {
-    background-color: white;
-    border:2px solid rgb(28, 233, 55);
-    border-radius:12px;
+   
     display:grid;
 }
 
@@ -19,7 +18,6 @@
 width:100%;
 
 }
-
 
 .poke-name {
     margin-top:-4px;
@@ -29,16 +27,23 @@ width:100%;
     display:1fr;
     margin-bottom: 0px;
     text-align:center;
-    background-color: lightgreen;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius:10px;
+    justify-content: center;
+    background-color: rgb(28, 233, 55);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius:9px;
   }
 
 
   /* Specific */
 
+  /* Borders */
+
+  .bulba-con{
+  border:1px solid rgb(28, 233, 55);
+}
+
   .char-con{
-    border:2px solid rgb(255, 195, 31);
+    border:1px solid rgb(255, 195, 31);
   }
 
   .char {
@@ -46,7 +51,7 @@ width:100%;
   }
   
   .squir-con{
-    border:2px solid rgb(91, 194, 254);
+    border:1px solid rgb(91, 194, 254);
   }
 
   .squir {
@@ -54,7 +59,7 @@ width:100%;
   }
 
   .butter-con{
-    border:2px solid rgb(220, 144, 255);
+    border:1px solid rgb(220, 144, 255);
   }
 
   .butter {
@@ -62,7 +67,7 @@ width:100%;
   }
 
   .arti-con{
-    border:2px solid rgb(36, 255, 251);
+    border:1px solid rgb(36, 255, 251);
   }
 
   .arti {
@@ -70,7 +75,7 @@ width:100%;
   }
 
   .arti-con{
-    border:2px solid rgb(36, 255, 251);
+    border:1px solid rgb(36, 255, 251);
   }
 
   .arti {
@@ -78,7 +83,7 @@ width:100%;
   }
 
   .ghas-con{
-    border:2px solid rgb(157, 98, 228);
+    border:1px solid rgb(157, 98, 228);
   }
 
   .ghas {
@@ -86,7 +91,7 @@ width:100%;
   }
 
   .drag-con{
-    border:2px solid rgb(232, 246, 80);
+    border:1px solid rgb(232, 246, 80);
   }
 
   .drag {
@@ -94,7 +99,7 @@ width:100%;
   }
 
   .agg-con{
-    border:2px solid rgb(200, 197, 197);
+    border:1px solid rgb(200, 197, 197);
   }
 
   .agg {
@@ -102,9 +107,23 @@ width:100%;
   }
 
   .sal-con{
-    border:2px solid rgb(255, 36, 62);
+    border:1px solid rgb(255, 36, 62);
   }
 
   .sal {
     background-color: rgb(255, 36, 62);
   }
+
+
+  /* Padding */
+
+.parent{
+  background-color: white;
+    padding: 16px 16px 0px 16px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.border-parent{
+  height:24px;
+}
