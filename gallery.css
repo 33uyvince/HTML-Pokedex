@@ -85,6 +85,14 @@ width:100%;
     background-color: rgb(157, 98, 228);
   }
 
+  .drag-con{
+    border:2px solid rgb(232, 246, 80);
+  }
+
+  .drag {
+    background-color: rgb(232, 246, 80);
+  }
+
   .agg-con{
     border:2px solid rgb(200, 197, 197);
   }
