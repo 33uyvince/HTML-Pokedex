@@ -1,0 +1,15 @@
+.gallery-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:30px;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.pokemon-picture {
+width:100%;
+background-color: lightpink;
+}
+
+
+
