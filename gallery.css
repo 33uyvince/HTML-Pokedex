@@ -21,7 +21,7 @@ width:100%;
 }
 
 
-.video-title {
+.poke-name {
     margin-top:-4px;
     font-size: 24px;
     font-weight: 500;
@@ -32,4 +32,71 @@ width:100%;
     background-color: lightgreen;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
+  }
+
+
+  /* Specific */
+
+  .char-con{
+    border:2px solid rgb(255, 195, 31);
+  }
+
+  .char {
+    background-color: rgb(255, 195, 31);
+  }
+  
+  .squir-con{
+    border:2px solid rgb(91, 194, 254);
+  }
+
+  .squir {
+    background-color: rgb(91, 194, 254);
+  }
+
+  .butter-con{
+    border:2px solid rgb(220, 144, 255);
+  }
+
+  .butter {
+    background-color: rgb(220, 144, 255);
+  }
+
+  .arti-con{
+    border:2px solid rgb(36, 255, 251);
+  }
+
+  .arti {
+    background-color: rgb(36, 255, 251);
+  }
+
+  .arti-con{
+    border:2px solid rgb(36, 255, 251);
+  }
+
+  .arti {
+    background-color: rgb(36, 255, 251);
+  }
+
+  .ghas-con{
+    border:2px solid rgb(157, 98, 228);
+  }
+
+  .ghas {
+    background-color: rgb(157, 98, 228);
+  }
+
+  .agg-con{
+    border:2px solid rgb(200, 197, 197);
+  }
+
+  .agg {
+    background-color: rgb(200, 197, 197);
+  }
+
+  .sal-con{
+    border:2px solid rgb(255, 36, 62);
+  }
+
+  .sal {
+    background-color: rgb(255, 36, 62);
   }
