@@ -33,6 +33,17 @@ width:100%;
     border-bottom-right-radius:9px;
   }
 
+  @media (max-width: 750px) {
+    .gallery-grid{
+      grid-template-columns: 1fr 1fr;
+    } 
+    }
+    
+    @media (min-width: 1000px){
+      .gallery-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
 
   /* Specific */
 
