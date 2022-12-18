@@ -1,9 +1,66 @@
 .pokemon-picture-container{
     position:relative;
 }
-.poke-number{
+.poke-number-bulba{
     background-color:none;
     color:rgb(28, 233, 55);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-char{
+    background-color:none;
+    color:rgb(255, 195, 31);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-squir{
+    background-color:none;
+    color:rgb(91, 194, 254);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-butter{
+    background-color:none;
+    color:rgb(220, 144, 255);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-arti{
+    background-color:none;
+    color:rgb(36, 255, 251);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+
+.poke-number-ghas{
+    background-color:none;
+    color:rgb(157, 98, 228);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-drag{
+    background-color:none;
+    color:rgb(232, 246, 80);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-agg{
+    background-color:none;
+    color:rgb(200, 197, 197);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.poke-number-sal{
+    background-color:none;
+    color:rgb(255, 36, 62);
     position:absolute;
     top:3px;
     right:10px;
