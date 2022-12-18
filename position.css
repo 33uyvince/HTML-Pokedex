@@ -1,0 +1,10 @@
+.pokemon-picture-container{
+    position:relative;
+}
+.poke-number{
+    background-color:none;
+    color:rgb(28, 233, 55);
+    position:absolute;
+    top:3px;
+    right:10px;
+}
