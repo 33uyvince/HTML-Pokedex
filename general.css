@@ -30,7 +30,8 @@ font-size:32px;
 }
 
 .rectangle{
-height: 865px;
+padding:32px;
+margin:auto;
 width:600px;
 background-color: rgb(245, 245, 245);    
 border:7px solid rgb(192,192,192);
@@ -48,5 +49,5 @@ p {
 }
 
 div {
-    font-size:12px;
+    font-size:8px;
 }
