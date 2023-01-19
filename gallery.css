@@ -1,131 +1,127 @@
-.gallery-grid{
-    display:grid;
+.gallery-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top:30px;
-    margin-right:49px;
-    margin-left:49px;
+    margin-top: 30px;
+    margin-right: 49px;
+    margin-left: 49px;
     column-gap: 20px;
     row-gap: 40px;
-    
 }
 
 .pokemon-picture-container {
-   
-    display:grid;
+    display: grid;
 }
 
 .pokemon-picture {
-width:100%;
-
+    width: 100%;
 }
 
 .poke-name {
-    margin-top:-4px;
+    margin-top: -4px;
     font-weight: 500;
     line-height: 32px;
-    display:1fr;
+    display: 1fr;
     margin-bottom: 0px;
-    text-align:center;
+    text-align: center;
     justify-content: center;
     background-color: rgb(28, 233, 55);
     border-bottom-left-radius: 9px;
-    border-bottom-right-radius:9px;
-  }
-
-  @media (max-width: 750px) {
-    .gallery-grid{
-      grid-template-columns: 1fr 1fr;
-    } 
-    }
-    
-    @media (min-width: 1000px){
-      .gallery-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-    }
-
-  /* Specific */
-
-  /* Borders */
-
-  .bulba-con{
-  border:1px solid rgb(28, 233, 55);
+    border-bottom-right-radius: 9px;
 }
 
-  .char-con{
-    border:1px solid rgb(255, 195, 31);
-  }
+@media (max-width: 750px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-  .char {
+@media (min-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Specific */
+
+/* Borders */
+
+.bulba-con {
+    border: 1px solid rgb(28, 233, 55);
+}
+
+.char-con {
+    border: 1px solid rgb(255, 195, 31);
+}
+
+.char {
     background-color: rgb(255, 195, 31);
-  }
-  
-  .squir-con{
-    border:1px solid rgb(91, 194, 254);
-  }
+}
 
-  .squir {
+.squir-con {
+    border: 1px solid rgb(91, 194, 254);
+}
+
+.squir {
     background-color: rgb(91, 194, 254);
-  }
+}
 
-  .butter-con{
-    border:1px solid rgb(220, 144, 255);
-  }
+.butter-con {
+    border: 1px solid rgb(220, 144, 255);
+}
 
-  .butter {
+.butter {
     background-color: rgb(220, 144, 255);
-  }
+}
 
-  .arti-con{
-    border:1px solid rgb(36, 255, 251);
-  }
+.arti-con {
+    border: 1px solid rgb(36, 255, 251);
+}
 
-  .arti {
+.arti {
     background-color: rgb(36, 255, 251);
-  }
+}
 
-  .ghas-con{
-    border:1px solid rgb(157, 98, 228);
-  }
+.ghas-con {
+    border: 1px solid rgb(157, 98, 228);
+}
 
-  .ghas {
+.ghas {
     background-color: rgb(157, 98, 228);
-  }
+}
 
-  .drag-con{
-    border:1px solid rgb(232, 246, 80);
-  }
+.drag-con {
+    border: 1px solid rgb(232, 246, 80);
+}
 
-  .drag {
+.drag {
     background-color: rgb(232, 246, 80);
-  }
+}
 
-  .agg-con{
-    border:1px solid rgb(200, 197, 197);
-  }
+.agg-con {
+    border: 1px solid rgb(200, 197, 197);
+}
 
-  .agg {
+.agg {
     background-color: rgb(200, 197, 197);
-  }
+}
 
-  .sal-con{
-    border:1px solid rgb(255, 36, 62);
-  }
+.sal-con {
+    border: 1px solid rgb(255, 36, 62);
+}
 
-  .sal {
+.sal {
     background-color: rgb(255, 36, 62);
-  }
+}
 
+/* Padding */
 
-  /* Padding */
-
-.parent{
-  background-color: white;
+.parent {
+    background-color: white;
     padding: 16px 16px 0px 16px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
 
-.border-parent{
-  height:24px;
+.border-parent {
+    height: 24px;
 }
